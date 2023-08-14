@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+body {
+    background-image: url("/uploads/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial;
+}
+
+.alert {
+    border: 1px solid red;
+    padding: 15px;
+    max-width: 350px;
+}
+
+.homepage {
+    text-align: center;
+}
+form{
+  padding: 10px;
+}
+
+input, button{
+    margin-top: 10px;
+}
+.homepage p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.homepage img {
+    width: 100%;
+    margin-top: 20px;
+    height: 600px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 100px;
+}
+.profile-image {
+    max-width: 250px;
+    text-align: center
+}
+.card-img-top{
+    width: 60px;
+    height: 60px;
+    border-radius: 150px;
+    object-fit: cover;
+    margin-right: 10px;
+}
